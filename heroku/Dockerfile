@@ -2,4 +2,5 @@ FROM ghcr.io/coder/coder:v2.5.1
 ENV CODER_TELEMETRY_INSTALL_SOURCE=heroku
 ENV CODER_ENABLE_TERRAFORM_DEBUG_MODE=true
 ENV CODER_TRACE_LOGS=true
+ENV CODER_ACCESS_URL=https://sbt-remote-dev.herokuapp.com/
 ENTRYPOINT []
